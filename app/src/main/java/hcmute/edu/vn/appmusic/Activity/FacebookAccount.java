@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-
+import com.Fpoly.music143.Model.UserInfor;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookAuthorizationException;
@@ -28,8 +28,6 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.Arrays;
-
-import hcmute.edu.vn.appmusic.Model.UserInfor;
 
 public class FacebookAccount extends AppCompatActivity {
     private FirebaseAuth mAuth;

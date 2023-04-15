@@ -30,7 +30,7 @@
                     app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
 
-                    <hcmute.edu.vn.appmusic.Activity.SquareImageView
+                    <hcmute.edu.vn.appmusic.Fragment.Activity.SquareImageView
                         android:background="@drawable/vietnam"
                         android:id="@+id/imgHeader"
                         android:layout_width="match_parent"
