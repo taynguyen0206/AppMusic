@@ -17,14 +17,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Fpoly.music143.Database.DAO.PlayListDAO;
-import com.Fpoly.music143.Database.Services.CallBack.PlayListCallBack;
-import com.Fpoly.music143.Fragment.Music.PlayMusicFragment;
-import com.Fpoly.music143.Fragment.UserPlayList.AddItemPlaylistFragment;
-import com.Fpoly.music143.Interface.ItemClickListener;
-import com.Fpoly.music143.Model.PlayList;
-import com.Fpoly.music143.Model.UserInfor;
-import com.Fpoly.music143.R;
+import hcmute.edu.vn.appmusic.Database.DAO.PlayListDAO;
+import hcmute.edu.vn.appmusic.Database.Services.CallBack.PlayListCallBack;
+import hcmute.edu.vn.appmusic.Fragment.Music.PlayMusicFragment;
+import hcmute.edu.vn.appmusic.Fragment.UserPlayList.AddItemPlaylistFragment;
+import hcmute.edu.vn.appmusic.Interface.ItemClickListener;
+import hcmute.edu.vn.appmusic.Model.PlayList;
+import hcmute.edu.vn.appmusic.Model.UserInfor;
+import hcmute.edu.vn.appmusic.R;
 
 import java.util.ArrayList;
 

@@ -12,16 +12,17 @@ import android.widget.LinearLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Fpoly.music143.Database.DAO.PlayListDAO;
-import com.Fpoly.music143.Database.Services.CallBack.PlayListCallBack;
-import com.Fpoly.music143.Fragment.UserPlayList.Apdater.AddItemPlayListAdapter;
-import com.Fpoly.music143.Model.PlayList;
-import com.Fpoly.music143.Model.UserInfor;
-import com.Fpoly.music143.R;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.makeramen.roundedimageview.RoundedImageView;
 
 import java.util.ArrayList;
+
+import hcmute.edu.vn.appmusic.Database.DAO.PlayListDAO;
+import hcmute.edu.vn.appmusic.Database.Services.CallBack.PlayListCallBack;
+import hcmute.edu.vn.appmusic.Fragment.UserPlayList.Apdater.AddItemPlayListAdapter;
+import hcmute.edu.vn.appmusic.Model.PlayList;
+import hcmute.edu.vn.appmusic.Model.UserInfor;
+import hcmute.edu.vn.appmusic.R;
 
 
 public class AddItemPlaylistFragment extends BottomSheetDialogFragment {

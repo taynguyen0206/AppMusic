@@ -18,25 +18,26 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Fpoly.music143.Activity.SquareImageView;
-import com.Fpoly.music143.Database.DAO.SongsDAO;
-import com.Fpoly.music143.Database.Services.CallBack.SongCallBack;
-import com.Fpoly.music143.Fragment.Account.AccountFragment;
-import com.Fpoly.music143.Fragment.Home.HomeFragment;
-import com.Fpoly.music143.Fragment.Music.PlayMusicFragment;
-import com.Fpoly.music143.Fragment.SongsList.Adapter.SongOfAlbum_Adapter;
-import com.Fpoly.music143.Fragment.SongsList.Adapter.SongOfFavorite_Adapter;
-import com.Fpoly.music143.Fragment.SongsList.Adapter.SongOfPlaylist_Adapter;
-import com.Fpoly.music143.Fragment.UserPlayList.PlaylistFragment;
-import com.Fpoly.music143.Model.Album;
-import com.Fpoly.music143.Model.PlayList;
-import com.Fpoly.music143.Model.Song;
-import com.Fpoly.music143.Model.SongIDList;
-import com.Fpoly.music143.Model.UserInfor;
-import com.Fpoly.music143.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+
+import hcmute.edu.vn.appmusic.Activity.SquareImageView;
+import hcmute.edu.vn.appmusic.Database.DAO.SongsDAO;
+import hcmute.edu.vn.appmusic.Database.Services.CallBack.SongCallBack;
+import hcmute.edu.vn.appmusic.Fragment.Account.AccountFragment;
+import hcmute.edu.vn.appmusic.Fragment.Home.HomeFragment;
+import hcmute.edu.vn.appmusic.Fragment.Music.PlayMusicFragment;
+import hcmute.edu.vn.appmusic.Fragment.SongsList.Adapter.SongOfAlbum_Adapter;
+import hcmute.edu.vn.appmusic.Fragment.SongsList.Adapter.SongOfFavorite_Adapter;
+import hcmute.edu.vn.appmusic.Fragment.SongsList.Adapter.SongOfPlaylist_Adapter;
+import hcmute.edu.vn.appmusic.Fragment.UserPlayList.PlaylistFragment;
+import hcmute.edu.vn.appmusic.Model.Album;
+import hcmute.edu.vn.appmusic.Model.PlayList;
+import hcmute.edu.vn.appmusic.Model.Song;
+import hcmute.edu.vn.appmusic.Model.SongIDList;
+import hcmute.edu.vn.appmusic.Model.UserInfor;
+import hcmute.edu.vn.appmusic.R;
 
 public class SongsListFragment extends Fragment {
     ArrayList<String> list;

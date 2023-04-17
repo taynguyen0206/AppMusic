@@ -15,14 +15,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Fpoly.music143.Fragment.Music.PlayMusicFragment;
-import com.Fpoly.music143.Fragment.SongsList.SongsListFragment;
-import com.Fpoly.music143.Interface.ItemClickListener;
-import com.Fpoly.music143.Model.Song;
-import com.Fpoly.music143.R;
+
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+
+import hcmute.edu.vn.appmusic.Fragment.Music.PlayMusicFragment;
+import hcmute.edu.vn.appmusic.Fragment.SongsList.SongsListFragment;
+import hcmute.edu.vn.appmusic.Interface.ItemClickListener;
+import hcmute.edu.vn.appmusic.Model.Song;
+import hcmute.edu.vn.appmusic.R;
 
 public class SongOfAlbum_Adapter extends RecyclerView.Adapter<SongOfAlbum_Adapter.ViewHolder> {
     Context context;
@@ -107,37 +109,6 @@ public class SongOfAlbum_Adapter extends RecyclerView.Adapter<SongOfAlbum_Adapte
         activity.getSupportFragmentManager().beginTransaction().replace(R.id.container, myFragment).addToBackStack(null).commit();
     }
 
-   /* private void DoDelete(final int position){
-        final UserInfor UserInfor = UserInfor.getInstance();
-        AlertDialog alertDialog;
-        alertDialog = new AlertDialog.Builder(context)
-                .setMessage("Bạn Có Muốn Xóa Không")
-                .setTitle("Thông Báo")
-                .setPositiveButton("Có", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        final Dialog dialog = new Dialog(context);
-                        dialog.setContentView(R.layout.loading);
-                        dialog.show();
-                        PlayListDAO playListDAO = new PlayListDAO(context);
-                        playListDAO.removeItemPlayList(UserInfor.getID(),UserInfor.getTempPlayListID(),songArrayList.get(position).getID(), new SongCallBack() {
-                            @Override
-                            public void getCallBack(ArrayList<Song> songs) {
-                                songArrayList.clear();
-                                songArrayList.addAll(songs);
-                                notifyDataSetChanged();
-                                dialog.dismiss();
-                            }
-                        });
-                    }
-                })
-                .setNegativeButton("Không", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {}
-                })
-                .show();
-        alertDialog.getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(Color.parseColor("#00ACC1"));
-        alertDialog.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(Color.parseColor("#00ACC1"));
-    }*/
+
 }
 

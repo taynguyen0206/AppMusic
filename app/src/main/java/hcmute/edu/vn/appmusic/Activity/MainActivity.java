@@ -1,8 +1,8 @@
 package hcmute.edu.vn.appmusic.Activity;
 
-import static com.Fpoly.music143.Activity.LoginActivity.IDACCOUNT;
-import static com.Fpoly.music143.Fragment.Account.AccountFragment.KEY_ISNIGHTMODE;
-import static com.Fpoly.music143.Fragment.Account.AccountFragment.MyPREFERENCES;
+import static hcmute.edu.vn.appmusic.Activity.LoginActivity.IDACCOUNT;
+import static hcmute.edu.vn.appmusic.Fragment.Account.AccountFragment.KEY_ISNIGHTMODE;
+import static hcmute.edu.vn.appmusic.Fragment.Account.AccountFragment.MyPREFERENCES;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -20,10 +20,12 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
 
-import com.Fpoly.music143.Database.DAO.UserDAO;
-import com.Fpoly.music143.Database.Services.CallBack.UserCallBack;
-import com.Fpoly.music143.Model.UserInfor;
-import com.Fpoly.music143.R;
+
+import hcmute.edu.vn.appmusic.R;
+import hcmute.edu.vn.appmusic.Model.UserInfor;
+import hcmute.edu.vn.appmusic.Database.Services.CallBack.UserCallBack;
+import hcmute.edu.vn.appmusic.Database.DAO.UserDAO;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 

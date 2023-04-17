@@ -18,8 +18,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.Fpoly.music143.Model.UserInfor;
-import com.Fpoly.music143.R;
+
+import hcmute.edu.vn.appmusic.R;
+import hcmute.edu.vn.appmusic.Model.UserInfor;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
@@ -48,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
         txtPassword = findViewById(R.id.edPassword);
         btnSignIn = findViewById(R.id.btnSignIn);
         btnfacebook = findViewById(R.id.btnfacebook);
-        btngmail = findViewById(R.id.btngmail);
+        btngmail = findViewById(R.id.sign_in_button);
         TextView signUp_text = findViewById(R.id.tvSignUp);
         TextView Forgetpass = findViewById(R.id.tvForgetpass);
 //Thao tác với các nút==============================================================================================

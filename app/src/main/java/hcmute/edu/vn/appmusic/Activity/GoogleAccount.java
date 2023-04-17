@@ -8,8 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.Fpoly.music143.Model.UserInfor;
-import com.Fpoly.music143.R;
+
+import hcmute.edu.vn.appmusic.R;
+import hcmute.edu.vn.appmusic.Model.UserInfor;
+
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -38,7 +40,7 @@ public class GoogleAccount extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
+//                .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build();
 

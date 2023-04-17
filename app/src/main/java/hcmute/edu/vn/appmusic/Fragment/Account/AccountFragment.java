@@ -1,8 +1,8 @@
 package hcmute.edu.vn.appmusic.Fragment.Account;
 
-//import static com.Fpoly.music143.Activity.MainActivity.slidingUpPanelLayout;
-//import static com.Fpoly.music143.Activity.MainActivity.userInfor;
+import static hcmute.edu.vn.appmusic.Activity.MainActivity.slidingUpPanelLayout;
 import static hcmute.edu.vn.appmusic.Activity.MainActivity.userInfor;
+
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,13 +23,13 @@ import androidx.appcompat.widget.SwitchCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-//import com.Fpoly.music143.Activity.LoginActivity;
-//import com.Fpoly.music143.Activity.SplashActivity;
-//import com.Fpoly.music143.Fragment.SongsList.SongsListFragment;
-//import com.Fpoly.music143.Fragment.UserPlayList.PlaylistFragment;
-//import com.Fpoly.music143.R;
-//import com.Fpoly.music143.txt.blank;
-import hcmute.edu.vn.appmusic.Model.UserInfor;
+import hcmute.edu.vn.appmusic.Activity.LoginActivity;
+import hcmute.edu.vn.appmusic.Activity.SplashActivity;
+import hcmute.edu.vn.appmusic.Fragment.SongsList.SongsListFragment;
+import hcmute.edu.vn.appmusic.Fragment.UserPlayList.PlaylistFragment;
+import hcmute.edu.vn.appmusic.R;
+import hcmute.edu.vn.appmusic.txt.blank;
+
 import com.google.firebase.auth.FirebaseAuth;
 import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 

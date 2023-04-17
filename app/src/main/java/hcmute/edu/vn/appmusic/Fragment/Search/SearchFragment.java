@@ -21,17 +21,14 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Fpoly.music143.Database.DAO.SearchDAO;
-import com.Fpoly.music143.Database.Services.CallBack.SongCallBack;
-import com.Fpoly.music143.Fragment.Search.Adapter.SearchAdapter;
-import com.Fpoly.music143.Model.Song;
-import com.Fpoly.music143.Model.UserInfor;
-import com.Fpoly.music143.R;
+import hcmute.edu.vn.appmusic.Database.DAO.SearchDAO;
+import hcmute.edu.vn.appmusic.Database.Services.CallBack.SongCallBack;
+import hcmute.edu.vn.appmusic.Fragment.Search.Adapter.SearchAdapter;
+import hcmute.edu.vn.appmusic.Model.Song;
+import hcmute.edu.vn.appmusic.Model.UserInfor;
+import hcmute.edu.vn.appmusic.R;
 
 import java.util.ArrayList;
-
-import hcmute.edu.vn.appmusic.Fragment.Search.Adapter.SearchAdapter;
-import hcmute.edu.vn.appmusic.R;
 
 public class SearchFragment extends Fragment {
     Toolbar toolbar;

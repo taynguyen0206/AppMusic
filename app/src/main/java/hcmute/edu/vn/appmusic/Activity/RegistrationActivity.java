@@ -13,10 +13,11 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.Fpoly.music143.Database.DAO.UserDAO;
-import com.Fpoly.music143.Database.Services.CallBack.SucessCallBack;
-import com.Fpoly.music143.Model.UserInfor;
-import com.Fpoly.music143.R;
+import hcmute.edu.vn.appmusic.Database.DAO.UserDAO;
+import hcmute.edu.vn.appmusic.Database.Services.CallBack.SucessCallBack;
+import hcmute.edu.vn.appmusic.Model.UserInfor;
+import hcmute.edu.vn.appmusic.R;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

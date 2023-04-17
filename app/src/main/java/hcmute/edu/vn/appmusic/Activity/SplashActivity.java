@@ -11,7 +11,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.Fpoly.music143.R;
+import hcmute.edu.vn.appmusic.R;
 
 public class SplashActivity extends AppCompatActivity {
 

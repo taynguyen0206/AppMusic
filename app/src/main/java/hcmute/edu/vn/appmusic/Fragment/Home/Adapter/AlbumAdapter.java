@@ -14,12 +14,12 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Fpoly.music143.Fragment.Home.HomeFragment;
-import com.Fpoly.music143.Fragment.SongsList.SongsListFragment;
-import com.Fpoly.music143.Interface.ItemClickListener;
-import com.Fpoly.music143.Model.Album;
-import com.Fpoly.music143.Model.UserInfor;
-import com.Fpoly.music143.R;
+import hcmute.edu.vn.appmusic.Fragment.Home.HomeFragment;
+import hcmute.edu.vn.appmusic.Fragment.SongsList.SongsListFragment;
+import hcmute.edu.vn.appmusic.Interface.ItemClickListener;
+import hcmute.edu.vn.appmusic.Model.Album;
+import hcmute.edu.vn.appmusic.Model.UserInfor;
+import hcmute.edu.vn.appmusic.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

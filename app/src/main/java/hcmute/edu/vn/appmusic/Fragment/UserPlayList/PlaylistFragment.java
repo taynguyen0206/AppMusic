@@ -18,15 +18,16 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Fpoly.music143.Database.DAO.PlayListDAO;
-import com.Fpoly.music143.Database.Services.CallBack.PlayListCallBack;
-import com.Fpoly.music143.Fragment.Account.AccountFragment;
-import com.Fpoly.music143.Fragment.UserPlayList.Apdater.PlaylistAdapter;
-import com.Fpoly.music143.Model.PlayList;
-import com.Fpoly.music143.Model.UserInfor;
-import com.Fpoly.music143.R;
 
 import java.util.ArrayList;
+
+import hcmute.edu.vn.appmusic.Database.DAO.PlayListDAO;
+import hcmute.edu.vn.appmusic.Database.Services.CallBack.PlayListCallBack;
+import hcmute.edu.vn.appmusic.Fragment.Account.AccountFragment;
+import hcmute.edu.vn.appmusic.Fragment.UserPlayList.Apdater.PlaylistAdapter;
+import hcmute.edu.vn.appmusic.Model.PlayList;
+import hcmute.edu.vn.appmusic.Model.UserInfor;
+import hcmute.edu.vn.appmusic.R;
 
 public class PlaylistFragment extends Fragment {
     ArrayList<PlayList> myplayLists;

@@ -19,17 +19,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Fpoly.music143.Database.DAO.FavoritesDAO;
-import com.Fpoly.music143.Database.Services.CallBack.SucessCallBack;
-import com.Fpoly.music143.Fragment.Music.PlayMusicFragment;
-import com.Fpoly.music143.Fragment.SongsList.SongsListFragment;
-import com.Fpoly.music143.Interface.ItemClickListener;
-import com.Fpoly.music143.Model.Song;
-import com.Fpoly.music143.Model.UserInfor;
-import com.Fpoly.music143.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+
+import hcmute.edu.vn.appmusic.Database.DAO.FavoritesDAO;
+import hcmute.edu.vn.appmusic.Database.Services.CallBack.SucessCallBack;
+import hcmute.edu.vn.appmusic.Fragment.Music.PlayMusicFragment;
+import hcmute.edu.vn.appmusic.Fragment.SongsList.SongsListFragment;
+import hcmute.edu.vn.appmusic.Interface.ItemClickListener;
+import hcmute.edu.vn.appmusic.Model.Song;
+import hcmute.edu.vn.appmusic.Model.UserInfor;
+import hcmute.edu.vn.appmusic.R;
 
 public class SongOfFavorite_Adapter extends RecyclerView.Adapter<SongOfFavorite_Adapter.ViewHolder> {
     Context context;

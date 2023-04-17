@@ -15,14 +15,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Fpoly.music143.Fragment.Music.PlayMusicFragment;
-import com.Fpoly.music143.Fragment.Search.SearchFragment;
-import com.Fpoly.music143.Interface.ItemClickListener;
-import com.Fpoly.music143.Model.Song;
-import com.Fpoly.music143.R;
+
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+
+import hcmute.edu.vn.appmusic.Fragment.Music.PlayMusicFragment;
+import hcmute.edu.vn.appmusic.Fragment.Search.SearchFragment;
+import hcmute.edu.vn.appmusic.Interface.ItemClickListener;
+import hcmute.edu.vn.appmusic.Model.Song;
+import hcmute.edu.vn.appmusic.R;
 
 public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.ViewHolder>{
     Context context;

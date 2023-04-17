@@ -14,17 +14,17 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
-import com.Fpoly.music143.Database.DAO.AlbumDAO;
-import com.Fpoly.music143.Database.DAO.SongsDAO;
-import com.Fpoly.music143.Database.Services.CallBack.AlbumCallBack;
-import com.Fpoly.music143.Database.Services.CallBack.SongCallBack;
-import com.Fpoly.music143.Fragment.Home.Adapter.AlbumAdapter;
-import com.Fpoly.music143.Fragment.Home.Adapter.RankAdapter;
-import com.Fpoly.music143.Fragment.Home.Adapter.SongNewAdapter;
-import com.Fpoly.music143.Fragment.Home.Adapter.SuggestAdapter;
-import com.Fpoly.music143.Model.Album;
-import com.Fpoly.music143.Model.Song;
-import com.Fpoly.music143.R;
+import hcmute.edu.vn.appmusic.Database.DAO.AlbumDAO;
+import hcmute.edu.vn.appmusic.Database.DAO.SongsDAO;
+import hcmute.edu.vn.appmusic.Database.Services.CallBack.AlbumCallBack;
+import hcmute.edu.vn.appmusic.Database.Services.CallBack.SongCallBack;
+import hcmute.edu.vn.appmusic.Fragment.Home.Adapter.AlbumAdapter;
+import hcmute.edu.vn.appmusic.Fragment.Home.Adapter.RankAdapter;
+import hcmute.edu.vn.appmusic.Fragment.Home.Adapter.SongNewAdapter;
+import hcmute.edu.vn.appmusic.Fragment.Home.Adapter.SuggestAdapter;
+import hcmute.edu.vn.appmusic.Model.Album;
+import hcmute.edu.vn.appmusic.Model.Song;
+import hcmute.edu.vn.appmusic.R;
 import com.tbuonomo.viewpagerdotsindicator.DotsIndicator;
 
 import java.util.ArrayList;

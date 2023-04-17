@@ -12,10 +12,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.PagerAdapter;
 
-import com.Fpoly.music143.Fragment.Home.HomeFragment;
-import com.Fpoly.music143.Fragment.Music.PlayMusicFragment;
-import com.Fpoly.music143.Model.Song;
-import com.Fpoly.music143.R;
+import hcmute.edu.vn.appmusic.Fragment.Home.HomeFragment;
+import hcmute.edu.vn.appmusic.Fragment.Music.PlayMusicFragment;
+import hcmute.edu.vn.appmusic.Model.Song;
+import hcmute.edu.vn.appmusic.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

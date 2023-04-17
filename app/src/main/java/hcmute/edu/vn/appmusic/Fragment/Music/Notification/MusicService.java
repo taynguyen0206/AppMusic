@@ -8,8 +8,8 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import com.Fpoly.music143.Activity.MainActivity;
-import com.Fpoly.music143.Model.Song;
+import hcmute.edu.vn.appmusic.Activity.MainActivity;
+import hcmute.edu.vn.appmusic.Model.Song;
 
 
 public class MusicService extends Service   {

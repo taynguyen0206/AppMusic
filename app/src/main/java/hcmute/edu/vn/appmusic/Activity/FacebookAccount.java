@@ -8,7 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.Fpoly.music143.Model.UserInfor;
+
+import hcmute.edu.vn.appmusic.Model.UserInfor;
+
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookAuthorizationException;

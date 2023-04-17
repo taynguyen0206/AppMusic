@@ -11,8 +11,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Fpoly.music143.Fragment.Music.Adapter.PlaynhacAdapter;
-import com.Fpoly.music143.R;
+import hcmute.edu.vn.appmusic.Fragment.Music.Adapter.PlaynhacAdapter;
+import hcmute.edu.vn.appmusic.R;
 
 public class Fragment_Play_Danh_Sach_Cac_Bai_Hat extends Fragment {
     View view;

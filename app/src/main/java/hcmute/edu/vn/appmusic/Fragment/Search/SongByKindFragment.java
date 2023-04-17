@@ -17,16 +17,17 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Fpoly.music143.Activity.SquareImageView;
-import com.Fpoly.music143.Database.DAO.SearchDAO;
-import com.Fpoly.music143.Database.Services.CallBack.SongCallBack;
-import com.Fpoly.music143.Fragment.Music.PlayMusicFragment;
-import com.Fpoly.music143.Fragment.Search.Adapter.SongByKindAdapter;
-import com.Fpoly.music143.Model.Song;
-import com.Fpoly.music143.Model.UserInfor;
-import com.Fpoly.music143.R;
 
 import java.util.ArrayList;
+
+import hcmute.edu.vn.appmusic.Activity.SquareImageView;
+import hcmute.edu.vn.appmusic.Database.DAO.SearchDAO;
+import hcmute.edu.vn.appmusic.Database.Services.CallBack.SongCallBack;
+import hcmute.edu.vn.appmusic.Fragment.Music.PlayMusicFragment;
+import hcmute.edu.vn.appmusic.Fragment.Search.Adapter.SongByKindAdapter;
+import hcmute.edu.vn.appmusic.Model.Song;
+import hcmute.edu.vn.appmusic.Model.UserInfor;
+import hcmute.edu.vn.appmusic.R;
 
 public class SongByKindFragment extends Fragment {
     Toolbar toolbarS;
@@ -42,7 +43,7 @@ public class SongByKindFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_musicbykind, container, false);
+        View root = inflater.inflate(R.layout.fragment_nhac_theo_the_loai, container, false);
 
         tvCategoryS = root.findViewById(R.id.tvCategoryS);
         tvTitleSongListS = root.findViewById(R.id.tvTitleSongListS);
